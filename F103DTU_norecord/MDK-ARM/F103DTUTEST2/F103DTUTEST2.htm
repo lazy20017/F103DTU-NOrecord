@@ -3,7 +3,7 @@
 <title>Static Call Graph - [F103DTUTEST2\F103DTUTEST2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image F103DTUTEST2\F103DTUTEST2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Fri May 04 07:18:19 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sat May 05 08:57:33 2018
 <BR><P>
 <H3>Maximum Stack Usage =       1040 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2237,7 +2237,7 @@ Global Symbols
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_printf
 </UL>
 
-<P><STRONG><a name="[46]"></a>main</STRONG> (Thumb, 916 bytes, Stack size 208 bytes, main.o(i.main))
+<P><STRONG><a name="[46]"></a>main</STRONG> (Thumb, 926 bytes, Stack size 208 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 1040<LI>Call Chain = main &rArr; my_init_m35 &rArr; AT_GET_CSQ &rArr; AT_Get_AT_Answer_string &rArr; my_at_com &rArr; USART_printf &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osKernelStart
@@ -2532,7 +2532,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> freertos.o(i.StartTask05)
 </UL>
-<P><STRONG><a name="[61]"></a>my_fun_GPRS_RX_test1</STRONG> (Thumb, 540 bytes, Stack size 16 bytes, my_os.o(i.my_fun_GPRS_RX_test1))
+<P><STRONG><a name="[61]"></a>my_fun_GPRS_RX_test1</STRONG> (Thumb, 508 bytes, Stack size 16 bytes, my_os.o(i.my_fun_GPRS_RX_test1))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = my_fun_GPRS_RX_test1 &rArr; HAL_RTC_SetTime &rArr; RTC_WriteTimeCounter &rArr; RTC_ExitInitMode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_SetTime
@@ -3035,7 +3035,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[160]"></a>my_speaker_long_voice</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, bsp_led.o(i.my_speaker_long_voice))
+<P><STRONG><a name="[160]"></a>my_speaker_long_voice</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, bsp_led.o(i.my_speaker_long_voice))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = my_speaker_long_voice &rArr; HAL_Delay
 </UL>
 <BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
@@ -3044,7 +3044,7 @@ Global Symbols
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[161]"></a>my_speaker_short_cycle_voice</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, bsp_led.o(i.my_speaker_short_cycle_voice))
+<P><STRONG><a name="[161]"></a>my_speaker_short_cycle_voice</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, bsp_led.o(i.my_speaker_short_cycle_voice))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = my_speaker_short_cycle_voice &rArr; HAL_Delay
 </UL>
 <BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay

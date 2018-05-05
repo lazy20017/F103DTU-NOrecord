@@ -2553,10 +2553,10 @@ uint8_t my_fun_GPRS_RX_test1(void) //此函数为结束函数，收到OK帧后，结束对话过程
 				my_indicator_alarm_data[my_indicator_tx_index].TX_status_jiedi=0X00;
 			}
 			
-			if(my_indicator_alarm_data[my_indicator_tx_index].duanlu_data=0XF0)
+			if(my_indicator_alarm_data[my_indicator_tx_index].duanlu_data==0XF0)
 			{
 				
-				my_indicator_alarm_data[my_indicator_tx_index].duanlu_data=0X00;  //清除周期报警0XF0标志
+				//my_indicator_alarm_data[my_indicator_tx_index].duanlu_data=0X00;  //清除周期报警0XF0标志
 			}
 			
 			printf("GPRS==ALarm report is over-6---index=%d!!\n\n", my_indicator_tx_index);

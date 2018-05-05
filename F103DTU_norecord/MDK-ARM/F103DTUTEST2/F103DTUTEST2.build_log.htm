@@ -21,19 +21,30 @@ Target DLL:      Segger\JL2CM3.dll V2.99.23.0
 Dialog DLL:      TCM.DLL V1.21.0.0
  
 <h2>Project:</h2>
-D:\00\F103DTU update-ts_server_NOrecord\F103DTU update-ts_server\MDK-ARM\F103DTUTEST2.uvprojx
+D:\00\F103DTU NOrecord\F103DTU_norecord\MDK-ARM\F103DTUTEST2.uvprojx
 Project File Date:  08/27/2017
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 4 (build 422)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'F103DTUTEST2'
+compiling my_cc_TX_RX.c...
+compiling bsp_led.c...
+compiling main.c...
+compiling my_time.c...
+compiling my_cc1101.c...
+compiling my_exit.c...
+compiling wdz_m35.c...
+myuser\wdz_m35.c(742): warning:  #223-D: function "abs" declared implicitly
+          MY_AT_CSQ_Value=(uint8_t) abs((int)(CSQ_Value));
+myuser\wdz_m35.c: 1 warning, 0 errors
+compiling my_gprs.c...
+compiling wdz_MCU.c...
+compiling wdz_101.c...
 compiling freertos.c...
 compiling my_OS.c...
-myuser\my_OS.c(2556): warning:  #187-D: use of "=" where "==" may have been intended
-  			if(my_indicator_alarm_data[my_indicator_tx_index].duanlu_data=0XF0)
-myuser\my_OS.c: 1 warning, 0 errors
+compiling bsp_iap.c...
 linking...
-Program Size: Code=70548 RO-data=840 RW-data=1524 ZI-data=57084  
+Program Size: Code=70560 RO-data=840 RW-data=1524 ZI-data=57084  
 FromELF: creating hex file...
 "F103DTUTEST2\F103DTUTEST2.axf" - 0 Error(s), 1 Warning(s).
 
@@ -46,14 +57,14 @@ Package Vendor: ARM
    * Component: CORE Version: 5.0.0
 
 <h2>Collection of Component include folders:</h2>
-  D:\00\F103DTU update-ts_server_NOrecord\F103DTU update-ts_server\MDK-ARM\RTE\_F103DTUTEST2
+  D:\00\F103DTU NOrecord\F103DTU_norecord\MDK-ARM\RTE\_F103DTUTEST2
   d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
   d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.0.0
-Build Time Elapsed:  00:00:06
+Build Time Elapsed:  00:00:16
 </pre>
 </body>
 </html>
